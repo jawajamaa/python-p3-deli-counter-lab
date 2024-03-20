@@ -1,10 +1,8 @@
-katz_deli = ["Ada", "Grace", "Kent"]
+# katz_deli = ["Ada", "Grace", "Kent"]
 
 def take_a_number(katz_deli, name):
     print(f"Welcome, {name}. You are number {len(katz_deli)+1} in line.")
     return katz_deli.append(name)
-
-
 
 def line(katz_deli):
     if len(katz_deli) == 0:
@@ -25,4 +23,4 @@ def now_serving(katz_deli):
             print(f"Currently serving {katz_deli[0]}.")
             katz_deli.pop(0)    
 
-now_serving(katz_deli)
+# now_serving(katz_deli)
